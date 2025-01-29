@@ -58,6 +58,7 @@ if uploaded_file:
 
 #A section to find githubportfolio
 st.header("Sites to connect with me.")
+st.write("Site options: \n Github \n LinkedIn")
 site_visit = st.text_input("Insert the site you wish to connect with me on.")
 if site_visit == "Github":
     st.write("You are about to go to Github")
