@@ -24,7 +24,7 @@ st.write(f"**Name:** {name}")
 st.write(f"**Field of Research:** {field}")
 st.write(f"**Institution:** {institution}")
 
-
+"""
 #Add a section for publications
 st.header("Publications")
 uploaded_file = st.file_uploader("Upload a CSV of Publications", type="csv")
@@ -53,8 +53,7 @@ if uploaded_file:
         st.bar_chart(year_counts)
     else:
         st.write("The CSV does not have a 'Year' column to visualize trends.")
-
-
+"""
 
 #A section to find githubportfolio
 st.header("Sites to connect with me.")
