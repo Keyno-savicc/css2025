@@ -15,7 +15,7 @@ st.title("**Personal Portfolio**")
 
 # Collect basic information
 name = "Kamohelo Mafejane"
-field = "Data Analytics"
+field = "Information Systems"
 institution = "University of The Western Cape"
 
 # Display basic profile information
